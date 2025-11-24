@@ -1,15 +1,17 @@
-module github.com/zackijack/go-project
+module go-violation-example
 
-go 1.16
+go 1.22.0
 
 require (
-	github.com/andybalholm/brotli v1.0.3 // indirect
-	github.com/gofiber/fiber/v2 v2.14.0
-	github.com/klauspost/compress v1.13.1 // indirect
-	github.com/mitchellh/go-homedir v1.1.0
-	github.com/rs/zerolog v1.23.0
-	github.com/spf13/cobra v1.1.3
-	github.com/spf13/viper v1.8.1
+	github.com/andybalholm/brotli v1.0.2 // indirect
+	github.com/klauspost/compress v1.12.2 // indirect
+	github.com/moby/moby v28.3.3+incompatible // indirect
+	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasthttp v1.28.0 // indirect
-	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c // indirect
+	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
+	github.com/xdg-go/scram v1.1.2 // indirect
+	github.com/xdg-go/stringprep v1.0.4 // indirect
+	golang.org/x/text v0.3.8 // indirect
+	gopkg.in/yaml.v2 v2.2.8 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
